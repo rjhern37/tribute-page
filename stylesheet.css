@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+#title,
+#title-cap {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#img-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+#img-caption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#tribute-info,
+#tribute-quote,
+#tribute-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tribute-info {
+  margin: 25px;
+}
+
+#tribute-quote {
+  font-family: 'Playfair Display', serif;
+  max-width: 500px;
+}
+
+#tribute-link {
+  margin: 50px;
+}
+
+h3,
+ul {
+  font-family: 'Inter', sans-serif;
+}
+
+ul {
+  max-width: 525px;
+}
+
+li {
+  margin: 15px auto;
+  line-height: 1.5;
+}
+
+span {
+  font-weight: 900;
+}
