@@ -14,6 +14,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
+  max-width: 100%;
 }
 
 #img-caption {
@@ -24,7 +25,7 @@ body {
 
 #tribute-info,
 #tribute-quote,
-#tribute-link {
+#tribute-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +40,7 @@ body {
   max-width: 500px;
 }
 
-#tribute-link {
+#tribute-page {
   margin: 50px;
 }
 
